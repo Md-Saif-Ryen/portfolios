@@ -176,6 +176,10 @@
     flex-direction: column;
     gap: 2rem;
   }
+  .i-right >:nth-child(2){
+    /* width: 4rem;  */
+    margin-left: 44px;
+  }
   .i-right{
     /* top: 4rem; */
     left: 4rem;
@@ -196,7 +200,7 @@
   }
   .i-right {
     transform: scale(0.8);
-    left: -3rem;
+    left: -4rem;
   }
   .i-right .blur {
     display: none;
