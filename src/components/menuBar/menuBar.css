@@ -1,5 +1,5 @@
 .menu{
-    position: relative;
+    /* position: relative; */
     position: fixed;
     z-index: 9;
 }
@@ -46,8 +46,30 @@ nav a.active{
     }
 }
 
-/* @media screen and (min-widht: 400px){
-    nav{
-        top:38rem;
+@media screen and (max-width: 600px){
+.menu{
+        display: none;
     }
-} */
+
+}
+
+@media  screen and (max-wdth:900px) {
+
+    nav{
+        left: 50%;
+        top: 90%;
+    }    
+}
+@media screen and (max-width:990px) {
+    nav{
+        left: 30%;
+        top: 90%;
+    }
+    .menu{
+        bottom: 1rem;
+    }
+    
+}
+/* @media screen and (mi) {
+     */
+/* } */

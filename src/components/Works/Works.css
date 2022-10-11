@@ -16,17 +16,17 @@
 
 .awesome > :nth-child(1) {
   color: var(--black);
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 .awesome > :nth-child(2) {
   color: var(--orange);
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 .awesome > :nth-child(3) {
   color: var(--gray);
-  font-size: 14px;
+  font-size: 17px;
   margin-top: 1rem;
 }
 .s-button {
@@ -112,7 +112,7 @@
   top: 8rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
   .works {
     flex-direction: column;
     height: 55rem;
