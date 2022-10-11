@@ -25,9 +25,10 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            Lorem ispum is simpley dummy text of printing of printing 
+            <br /> Lorem
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
+            ispum is simpley dummy text of printingLorem ispum is <br /> simpley dummy
             text
             <br />
             y dummy text of printingLorem
